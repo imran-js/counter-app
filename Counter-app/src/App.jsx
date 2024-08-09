@@ -1,13 +1,9 @@
+import Card from "./Card";
 
-
-function App() {
-
-
+export default function App() {
   return (
-    <>
-      <p>My Counter App</p>
-    </>
-  )
+    <main>
+      <Card />
+    </main>
+  );
 }
-
-export default App
